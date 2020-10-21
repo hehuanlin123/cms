@@ -20,6 +20,11 @@ class UserIdentity extends Model {
     return verify(raw, this.credential);
   }
 
+  /*
+   * 登录验证
+   * @param username
+   * @param password
+   */
   static async verify (username, password) {
     const user = await this.findOne({
       where: {

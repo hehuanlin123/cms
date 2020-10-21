@@ -1,3 +1,4 @@
+/* 入口文件导出路由树 */
 import Vue from 'vue'
 import Router from 'vue-router'
 import routes from './route'

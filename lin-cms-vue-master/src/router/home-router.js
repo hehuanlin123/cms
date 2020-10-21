@@ -1,4 +1,5 @@
-import stageConfig from '@/config/stage' // 引入舞台配置
+// 引入舞台配置：adminRouter、bookRouter、pluginsConfig、centerRouter
+import stageConfig from '@/config/stage'
 
 // 深度遍历配置树, 摘取叶子节点作为路由部分
 function deepTravel(config, fuc) {
