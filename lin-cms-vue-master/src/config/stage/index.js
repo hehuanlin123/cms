@@ -24,7 +24,7 @@ let homeRouter = [
     inNav: true,
     icon: 'iconfont icon-rizhiguanli',
     order: 2,
-    permission: ['查询所有日志'],
+    permission: ['查询所有日志'], // 路由的权限配置，有['查询所有日志']权限的用户才能查看该页面
   },
   {
     title: '个人中心',
@@ -34,6 +34,7 @@ let homeRouter = [
     filePath: 'view/center/center.vue',
     inNav: false,
     icon: 'iconfont icon-rizhiguanli',
+    // 不配置permission，该页面是公共页面
   },
   {
     title: '404',
